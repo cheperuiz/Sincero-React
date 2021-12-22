@@ -1,0 +1,16 @@
+.BtnGroup {
+  width: 438px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+
+
+@media(max-width: 479px) {
+  .BtnGroup {
+    flex-direction: column;
+  }
+}

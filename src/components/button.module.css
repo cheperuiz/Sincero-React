@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  position: relative;
+}
+.button {
+  color: var(--dl-color-gray-white);
+  width: 435px;
+  text-align: center;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-primary-01);
+  border-style: solid;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-primary-01);
+}
+.button:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-primary-02);
+}
